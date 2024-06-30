@@ -276,7 +276,6 @@ table_scrapper("https://results.eci.gov.in/PcResultGenJune2024/ConstituencywiseS
 # In[37]:
 
 
-#Making empty Dataframe with columns
 df_try = pd.DataFrame(columns = ["S.N.","Candidate","Party","EVM Votes","Postal Votes","Total Votes","% of Votes","Constituency"])
 
 
@@ -300,7 +299,7 @@ final_df
 # In[ ]:
 
 
-final_df.nunique()#proof that it worked as constiteuncy is 543
+final_df.nunique()
 
 
 # In[ ]:
