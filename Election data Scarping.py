@@ -48,7 +48,7 @@ table
 
 for election_data in table.find_all('tbody'):
     rows = election_data.find_all('tr')
-    print(rows)#all the rows in the table 
+    print(rows)
 
 
 # In[12]:
@@ -189,7 +189,7 @@ for elements in states_and_ut[1:]:
 # In[26]:
 
 
-master_list #this is list of list lets flatten it and remove the empty string part 
+master_list  
 
 
 # In[27]:
@@ -203,7 +203,6 @@ flat_master
 # In[28]:
 
 
-#for removing blank spaces
 for elements in flat_master:
     if (elements == ""):
         flat_master.remove("")
@@ -213,7 +212,7 @@ for elements in flat_master:
 # In[29]:
 
 
-len(flat_master)#Now that we know no. of constituency is equal to len of list.
+len(flat_master)
 
 
 # In[30]:
