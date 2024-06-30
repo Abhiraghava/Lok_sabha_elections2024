@@ -194,8 +194,6 @@ master_list
 
 # In[27]:
 
-
-#Flatten the list
 flat_master = sum(master_list, [])
 flat_master
 
